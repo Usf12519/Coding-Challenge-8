@@ -12,3 +12,27 @@ getdetails () {
     return `$(this.name)` is at `$(this.postion)` and has `$(this.salary)`
 
 }
+
+// Task 2: Create a Department Class
+
+class Department {
+    constructor(Education) {
+        this.education = education;
+        this.employees = [];
+   
+   // Method to adding of employees
+        addemployee (employee) {
+        this.employees.push(employee);
+
+    }
+
+    // Method to get department salary
+    getdepartmentsalary() {
+        return this.employees.reduce((total, department)) => total += department.salary, 0) = this.employees;
+        
+    }
+
+
+        
+    }
+}
