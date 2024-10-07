@@ -39,6 +39,14 @@ class Manager {
     super(bonus,monthlySalary) = 50000, 5000 {
         getdetails() = Override 
         return `$(this.manager)` has a `$(bonus)` = 50000;
-        
+
     }
 }
+
+// Task 4: Handle Bonuses for Managers
+   calculateTotalSalaryWithBonus() 
+    totalSalary = 0;
+    this.employees.forEach(employee=> totalSalary += employee.salary);
+    if (employee instanceof Manager)
+        totalSalary += employee.bonus;
+    )
