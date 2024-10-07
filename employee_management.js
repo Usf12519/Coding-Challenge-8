@@ -50,3 +50,13 @@ class Manager {
     if (employee instanceof Manager)
         totalSalary += employee.bonus;
     )
+
+// Task 5: Create and Manage Departments and Employees
+
+department = Education("department");
+department = Social Science ("department");
+
+dep_manager= manager(Peter, department manager, 90000;
+dep_employee1 = Employee(Alex, Designer, 85000);
+dep_employee2 = Employee(Cameron, Developer, 65000);
+)
