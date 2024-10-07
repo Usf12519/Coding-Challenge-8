@@ -29,10 +29,16 @@ class Department {
     // Method to get department salary
     getdepartmentsalary() {
         return this.employees.reduce((total, department)) => total += department.salary, 0) = this.employees;
-        
+
     }
 
+// Task 3: Create a Manager Class that Inherits from Employee
 
+class Manager {
+    constructor(parameters from the employee class)
+    super(bonus,monthlySalary) = 50000, 5000 {
+        getdetails() = Override 
+        return `$(this.manager)` has a `$(bonus)` = 50000;
         
     }
 }
